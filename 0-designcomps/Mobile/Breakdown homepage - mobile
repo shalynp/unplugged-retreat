@@ -1,0 +1,38 @@
+/homepage/
+
+<p></p>
+
+Header
+  - Logo
+    -divider
+  - Nav
+    - FAQ
+    - About
+  - Headline
+  - Image
+
+Section
+  - Download itinerary
+    - Headline text
+    - Button
+
+  - Amenities
+    - Headline text
+    - Background Image
+    - Icon
+    - Paragraph texts for icons
+
+  - Previous retreats
+    - Headline text
+    - Image
+    - Headline text describing Image
+    - Paragraph text
+
+Footer
+  - Contact
+    - headline text
+    - contact info
+  - Social
+    - headline text
+    - icons
+  - Copyright
