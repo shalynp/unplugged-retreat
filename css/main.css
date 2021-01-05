@@ -166,6 +166,7 @@ footer {
 
  footer .copyright {
    margin: 20px 0;
+
  }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -458,12 +459,15 @@ aside {
 
    footer .copyright {
        width: 100%;
+       display: flex;
+       justify-content: center;
+
    }
-}
 
 
-
-/* About */
+/* ==========================================================================
+   About Page
+   ========================================================================== */
 
 .mission-content {
         display: flex;
@@ -486,7 +490,10 @@ aside {
         align-items: flex-start;
 }
 
-/* FAQ */
+/* ==========================================================================
+  FAQ Page
+   ========================================================================== */
+
 .faq .content-wrapper {
         justify-content: space-between;
     }
@@ -499,13 +506,61 @@ aside {
         width: 100%;
     }
 }
+
+
  /* -------------------- Desktop Styles  -------------------- */
- @media only screen and (min-width:1200px)
+ @media only screen and (min-width:1200px) {
  /* Homepage */
+ .content-wrapper {
+         max-width: 960px;
+    }
 
- /* About */
+     /* Hero */
+    .hero-area h1 {
+        width: 60%;
+    }
 
- /* FAQ */
+    /* Aside */
+    aside .content-wrapper {
+        justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+        width: 35%;
+    }
+
+    /* Features */
+    .features h2 {
+        width: 88%;
+    }
+
+    .features article {
+        flex-basis: 33%;
+    }
+
+    /* Reviews */
+    .reviews article div {
+        width: 44%;
+    }
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+        width: 96%;
+    }
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+    .faq h2 {
+        width: 100%;
+    }
+
+}
+
 
 
  @media print,
