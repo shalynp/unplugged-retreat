@@ -143,12 +143,6 @@ textarea {
      font-style: normal;
    }
 
-   .content-wrapper {
-
-   }
-
-
-
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -252,10 +246,12 @@ footer {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("../img/jake-melara-30679-unsplash.jpg") center no-repeat #222;
+  background-size: cover;
 }
 
 .hero-area h1 {
-  font-size: 2.25em;
+  font-size: 1.5em;
   font-family: 'Poppins',  sans-serif;
   font-weight: 500;
   line-height: 1.2em;
@@ -272,9 +268,8 @@ aside {
 
 /* Features */
 .features {
-  background-image: url("../img/rawpixel-800820-unsplash1.jpg");
+  background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
   background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -692,7 +687,8 @@ input[type=button] {
      /* Hero */
     .hero-area h1 {
       font-size: 3.75em;
-        width: 60%;
+        width: 70%;
+        margin-bottom: 400px;
     }
 
     /* Aside */
