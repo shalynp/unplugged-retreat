@@ -668,6 +668,10 @@ input[type=button] {
         width: 45%;
     }
 
+    .map {
+      padding-bottom: 45%;
+    }
+
     .contact-section .content-wrapper h2 {
         width: 80%;
     }
@@ -777,6 +781,10 @@ input[type=button] {
     .contact-section .content-wrapper h2 {
         width: 96%;
         font-size: 3em;
+    }
+
+    .map {
+      padding-bottom: 37%;
     }
 
     .contact-content h4 {
